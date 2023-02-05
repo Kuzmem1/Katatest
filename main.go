@@ -38,7 +38,7 @@ func main() {
 	err0 := errors.New("Одно из чисел меньше 1(I) или больше 10 (X) \n")
 	Roman := "I II III IV V VI VII VIII IX X"
 	Arabic := "1 2 3 4 5 6 7 8 9 10"
-	err1 := errors.New("Римское число не может быть отрицательным \n")
+	err1 := errors.New("Римское число не может быть отрицательным или равным 0 \n")
 	err2 := errors.New("Нужно выражение формата A + B \n")
 	err3 := errors.New("В одном выражении не могут быть римские и арабские числа \n")
 	lookfor := num2
